@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.tabla{
+    padding: 12px;
+    margin: 12px;
+}
+.encabesado{
+    border: 1px solid #778899;
+    padding: 5px;
+    margin: 5px;
+    height: 100px;
+    width: 920px;
+}
+.principio{
+    border: 1px solid #0000ff;
+    height: 640px;
+    width: 940px;
+}
+#menu{
+    border: 1px solid #ff0000;
+    margin: 5px;
+    padding: 5px;
+    background: #32cd32;
+    padding-left: 200px;
+    height: 30px;
+    text-align: center;
+}
+#menu ul li{
+    list-style: none;
+    float: left;
+}
+#menu ul li a{
+    text-decoration: none;
+    padding: 20px 15px;
+    border: 0px solid #ccc;
+    color: #fff;
+}
+#menu ul li a:hover{
+    background: #fff;
+    color: #006699;
+    transition: background 1s, color 1s;
+}
+.contenido{
+    border: 1px solid red;
+    padding: 5px;
+    margin: 5px;
+    width: 580px;
+    height: 380px;
+    float: left;
+}
+.contenido1{
+    border: 1px solid red;
+    margin: 5px;
+    height: 182px;
+}
+.contenido2{
+    border: 1px solid red;
+    margin: 5px;
+    height: 182px;
+}
+.for{
+    border: 1px solid #ff0000;
+    padding: 5px;
+    margin: 5px;
+    width: 300px;
+    height: 380px;
+    float: right;
+}
+.cel{
+    border: 1px solid #ff0000;
+    clear: left;
+    padding: 5px;
+    margin: 5px;
+    height: 50px;
+}
